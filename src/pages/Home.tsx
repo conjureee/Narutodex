@@ -26,7 +26,7 @@ const Home = () => {
             {introFinished && (
                 <div className="opacity-0 animate-fade-in">
                     <div className="h-screen bg-gray-950 flex items-center justify-center">
-                        <h2 className="text-5xl">To be continued...</h2>
+                        <h2 className="text-5xl">To be continued..</h2>
                     </div>
                 </div>
             )}

@@ -58,7 +58,6 @@ export default function HomeHero({ onIntroFinish }: Props) {
                         className="absolute inset-0 w-full h-full object-cover"
                     />
 
-                    {/* Left Side Content */}
                     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-1/2 flex justify-center z-30 animate-fade-in-up">
                         <div className="max-w-lg text-center">
                             <h1
