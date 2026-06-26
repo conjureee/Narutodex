@@ -1,6 +1,6 @@
-import SharinganLogo from "../../assets/sharingan.svg";
-import ArrowLeft from "../../assets/arrow-left.svg";
-import { navLinks } from "../../constants";
+import SharinganLogo from "../../assets/buttons/sharingan.svg";
+import ArrowLeft from "../../assets/buttons/arrow-left.svg";
+import { navLinks } from "../../constants/navbar";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

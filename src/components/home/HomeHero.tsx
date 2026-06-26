@@ -1,8 +1,7 @@
 import {useRef, useEffect, useState} from "react";
-import NarutoFight1 from '../../assets/naruto-part-one.mp4'
-import NarutoFight2 from '../../assets/naruto-part-two.mp4'
-import SkipButton from "../../assets/skip.svg";
-import Byakugan from "../../assets/byakugan.svg";
+import NarutoFight1 from '../../assets/videos/naruto-part-one.mp4'
+import NarutoFight2 from '../../assets/videos/naruto-part-two.mp4'
+import SkipButton from "../../assets/buttons/skip.svg";
 
 type Props = { onIntroFinish: () => void; };
 
@@ -59,39 +58,39 @@ export default function HomeHero({ onIntroFinish }: Props) {
                     />
 
                     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-1/2 flex justify-center z-30 animate-fade-in-up">
-                        <div className="max-w-lg text-center">
-                            <h1
-                                className="
-                                    text-6xl md:text-7xl
-                                    font-black tracking-widest
-                                    text-white
-                                    mb-6 leading-none
-                                    flex items-center gap-2
-                                    narutodex-outline
-                                  "
-                            >
-                                NARUT
-                                <img
-                                    src={Byakugan}
-                                    alt="Byakugan"
-                                    className="w-12 h-12 inline-block translate-y-1"
-                                />
-                                DEX
-                            </h1>
+                        {/*<div className="max-w-lg text-center">*/}
+                        {/*    <h1*/}
+                        {/*        className="*/}
+                        {/*            text-6xl md:text-7xl*/}
+                        {/*            font-black tracking-widest*/}
+                        {/*            text-white*/}
+                        {/*            mb-6 leading-none*/}
+                        {/*            flex items-center gap-2*/}
+                        {/*            narutodex-outline*/}
+                        {/*          "*/}
+                        {/*    >*/}
+                        {/*        NARUT*/}
+                        {/*        <img*/}
+                        {/*            src={Byakugan}*/}
+                        {/*            alt="Byakugan"*/}
+                        {/*            className="w-12 h-12 inline-block translate-y-1"*/}
+                        {/*        />*/}
+                        {/*        DEX*/}
+                        {/*    </h1>*/}
 
-                            <p
-                                className="
-                                text-2xl md:text-3xl
-                                font-archivo font-bold
-                                text-orange-400
-                                tracking-[0.15em]
-                                uppercase
-                              "
-                            >
-                                Your Favourite<br />Shinobi Encyclopedia
-                            </p>
+                        {/*    <p*/}
+                        {/*        className="*/}
+                        {/*        text-2xl md:text-3xl*/}
+                        {/*        font-archivo font-bold*/}
+                        {/*        text-orange-400*/}
+                        {/*        tracking-[0.15em]*/}
+                        {/*        uppercase*/}
+                        {/*      "*/}
+                        {/*    >*/}
+                        {/*        Your Favourite<br />Shinobi Encyclopedia*/}
+                        {/*    </p>*/}
 
-                        </div>
+                        {/*</div>*/}
                     </div>
                 </>
             )}

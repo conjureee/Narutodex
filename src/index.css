@@ -93,6 +93,28 @@ body {
           -1.5px -1.5px 0 #000;
 }
 
+.quote-line {
+  position: relative;
+  padding-left: 1rem;
+  font-style: italic;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+.quote-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  width: 3px;
+  background: linear-gradient(
+          to bottom,
+          rgba(255,255,255,0.4),
+          rgba(255,255,255,0.1)
+  );
+  border-radius: 2px;
+}
+
 /* ====================== Helpers ====================== */
 
 .text-accent { color: var(--accent); }

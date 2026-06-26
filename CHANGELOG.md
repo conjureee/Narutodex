@@ -4,20 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
-- Cinematic full-screen video intro on Home page (Naruto vs Sasuke)
-- Two-video system: intro video → looping background video
-- Skip intro button with localStorage persistence (no repeat on refresh)
-- Smooth fade-in / slide-up animations when transitioning from intro to content
-- Conditional Navbar rendering (appears only after intro finishes)
-- HomeHero component with left-side content reveal
-- Basic Home page layout prepared for future sections
+- Interactive "Shinobi Legends" section on homepage (`PopularCharacters`)
+- Expandable character cards with smooth Framer Motion animations
+- Character quotes revealed on card expansion
+- Reorganised assets folder
 
 ### Changed
-- Refactored Home page logic to handle intro flow properly
-- Updated routing structure to support cinematic landing experience
+- Updated Home page structure to include Popular Characters section
+- Temporarily commented out main hero text/slogan for future design adjustments
 
 ### To Do
 - Finish styling Navbar
-- Add Popular Characters section
-- Add Feature Cards section
-- Improve mobile responsiveness of intro
+- Improve mobile experience for card section
+- Add more characters to constants
